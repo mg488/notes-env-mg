@@ -1,0 +1,16 @@
+mysql -uadmin -pVLVmw5zKFeFT -h<host> -P<port>
+
+
+ mysql -
+user :  admin 
+-password   : VLVmw5zKFeFT -
+
+
+
+lien phpmyadmin 
+
+http://127.0.0.1/phpmyadmin/index.php?route=/&route=%2F
+
+
+lien navigation
+http://127.0.0.1/test.php
