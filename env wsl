@@ -1,0 +1,49 @@
+1: Préparation de l’environnement de travail
+
+    1. Mise en place du WSL 1 (Debian)
+
+Etape 1 :
+ Installation de l'infrastructure
+ -mis à jours de Windows
+ - installation du noyau linux Debian
+	--activer l'option Sous-système Windows pour linux
+	--(Taper dans le menu démarrer de Windows "Fonctionnalité de Windows et cocher la case "Sous-système Windows pour linux »
+Etape 2 : Debian
+Télécharger Debian depuis Microsoft Store
+Etape 3 : Make
+Dans le Debian taper les commandes
+$ sudo apt-get update
+$ sudo apt-get install -y make
+
+Etape 3.1 : installe vim et git
+$ sudo apt-get update
+$ sudo apt-get install -y vim
+$ sudo apt-get install -y git
+
+Etape 3.2 : config un user
+$ git config --global user.name "Nom prenom"
+$ git config --global user.email "email"
+$ git config --global core.editor vim
+
+Etape 4 : activer WSL 1 ou 2
+Commande pour activer WSL2
+Ouvrir PowerShell en tant que admin
+- command $ :
+$ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+$ wsl --set-default-version 2
+-pour lister les distributions WSLet verifier la version de debian
+Command $ :
+wsl --list --verbose
+
+Etape 5 :
+Chemin pour acceder à mon debian:
+\\wsl$\Debian
+Etape 6 :
+Mettre par defaut debian (dossier ~) dans windows terminal
+Depuis Debian taper la command
+$ sudo nano .bashrc
+à la fin de la ligne
+Rajouter le chemin pour accéder au  ~ de Debian
+cd /home/mndiaye
+
+
