@@ -1,0 +1,516 @@
+    1  apt get
+    2  apt install
+    3  apt update
+    4  sudo apt-get update
+    5  ll
+    6  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    7  ll
+    8  sudo apt install ./google-chrome-stable_current_amd64.deb
+    9  ll
+   10  rm -rf google-chrome-stable_current_amd64.deb
+   11  ll
+   12  sudo apt-get install
+   13  sudo apt install ./teamviewer_amd64.deb
+   14  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+   15  sudo apt install ./teamviewer_amd64.deb
+   16  ll
+   17  rm-rf teamviewer_amd64.deb
+   18  rm -rf teamviewer_amd64.deb
+   19  ll
+   20  mkdir projetMnd
+   21  cd projetMnd/
+   22  mkdir minamg
+   23  exit
+   24  ubun -v
+   25  buntu -v
+   26  sb_release -a
+   27  lsb_release -a
+   28  sudo apt-get update
+   29  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   30  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   31  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+   32    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   33  sudo apt-get update
+   34  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   35  docker
+   36  ll
+   37  mkdir Dev
+   38  de Dev/
+   39  ll
+   40  cd Dev/
+   41  ll
+   42  docker run -p "80:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+   43  docker run -p "80:80" -p "443:443" -p "3306:3306" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+   44  sudo docker run -p "80:80" -p "443:443" -p "3306:3306" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+   45  docker ps
+   46  sudo docker ps
+   47  sudo docker ps -a
+   48  sudo docker start cecb41bf29a4
+   49  ll
+   50  cd app/
+   51  ll
+   52  vi test.php
+   53  ll
+   54  mkdir iciProjectsmg
+   55  ll
+   56  exit
+   57  docker volume create portainer_data
+   58  sudo docker volume create portainer_data
+   59  sudo docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+   60  composer -v
+   61  docker ps
+   62  sudo docker ps
+   63  sudo docker start
+   64  sudo docker ps -a
+   65  docker start cecb41bf29a4
+   66  sudo docker start cecb41bf29a4
+   67  sudo docker start 2f56ab9237d1
+   68  sudo docker ps -a
+   69  sudo docker ps
+   70  composer -v
+   71  sudo apt get update
+   72  sudo apt update
+   73  sudo apt install composer
+   74  composer -v
+   75  ll
+   76  cd Dev/
+   77  ll
+   78  cd app
+   79  ll
+   80  cd../..
+   81  cd ../..
+   82  clear
+   83  wget https://get.symfony.com/cli/installer -O - | bash
+   84  composer
+   85  reset
+   86  symfony
+   87  ll
+   88  cd Dev/app/
+   89  ls
+   90  cat test.php
+   91  symfony
+   92  composer create-project symfony/website-skeleton africanFood
+   93  ll
+   94  cd africanFood/
+   95  ll
+   96  cd..
+   97  cd ..
+   98  rm -rf africanFood/
+   99  symfony new africanFood --full
+  100  wget https://get.symfony.com/cli/installer -O - | bash
+  101  composer
+  102  symfony
+  103  composer
+  104  reset
+  105  sudo apt update
+  106  sudo apt install php php-json php-ctype php-curl php-mbstring php-xml php-zip php-tokenizer php-tokenizer libpcre3 --no-install-recommends
+  107  sudo apt install git zip unzip
+  108  symfony
+  109  clear
+  110  composer create-project symfony/website-skeleton africanFood
+  111  ll
+  112  cd africanFood/
+  113  ll
+  114  reset
+  115  php bin/console make:controller HomeController
+  116  php bin/conse make:user User
+  117  php bin/console make:user User
+  118  netstat -tlnp
+  119  php bin/console
+  120  php bin/console doctrine:database:create
+  121  reset
+  122  php bin/console doctrine:database:create
+  123  reset
+  124  php bin/console doctrine:database:create
+  125  reset
+  126  php bin/console doctrine:database:create
+  127  php -v
+  128  sudo apt install php-mysqli
+  129  php bin/console doctrine:database:create
+  130  phpbin/console
+  131  php bin/console
+  132  php bin/console make:migration
+  133  php bin/console doctrine:migrations:migrate
+  134  docker ps -a
+  135  sudo docker ps -a
+  136  docker start 2f56ab9237d1
+  137  sudo docker start 2f56ab9237d1
+  138  cd Dev/app/
+  139  ll
+  140  cd africanFood/
+  141  php bin/console
+  142  reset
+  143  php bin/console make:controller RegisterController
+  144  composer require symfony/apache-pack
+  145  reset
+  146  php bin/console make:form
+  147  php bin/consle make:entity
+  148  php bin/console make:entity
+  149  php bin/console make:migration
+  150  php bin/console doctrine:migrations:migrate
+  151  reset
+  152  php bin/console
+  153  reset
+  154  php bin/console make:auth
+  155  symfony -v
+  156  php bin/console cache:clear
+  157  reset
+  158  php bin/consolemak:controller
+  159  php bin/console make:controller
+  160  php bin/console make:form
+  161  apt-get update
+  162  sudo apt-get update
+  163  dockerps -a
+  164  docker ps -a
+  165  sudo docker ps -a
+  166  docker start 2f56ab9237d1
+  167  sudo docker start 2f56ab9237d1
+  168  sudo docker start cecb41bf29a4
+  169  docker ps -a
+  170  sudo docker ps -a
+  171  sudo docker start 2f56ab9237d1
+  172  sudo docker start cecb41bf29a4
+  173  composer require easycorp/easyadmin-bundle
+  174  php bin/console
+  175  ll
+  176  rm -rf composer.json
+  177  rm -rf composer.lock
+  178  ll
+  179  cd Dev/app/africanFood/
+  180  composer require easycorp/easyadmin-bundle
+  181  php bin/console
+  182  php bin/console make:admin:dashboard
+  183  php bin/console make:admin:crud
+  184  php bin/console make:entity
+  185  reset
+  186  php bin/console make:migration
+  187  php bin/console doctrine:mi:mi
+  188  php bin/console make:admin:crud
+  189  reset
+  190  php bin/console make:entity
+  191  php bin/console make:migration
+  192  php bin/console doctrine:migrations:migrate
+  193  reset
+  194  php bin/console make:admincrud
+  195  php bin/console make:admin:crud
+  196  php bin/console make:entity
+  197  php bin/console make:migration
+  198  php bin/console doctrine:migrations:migrate
+  199  reset
+  200  php bin/console make:controller
+  201  docker ps -a
+  202  sudo docker ps -a
+  203  sudo docker start 2f56ab9237d1
+  204  sudo docker start cecb41bf29a4
+  205  phpbin/console
+  206  php bin/console
+  207  cd Dev/app/africanFood/
+  208  php bin/console
+  209  php bin/console doctrine:cache:clear
+  210  php bin/console cache:clear
+  211  composer require twig/intl-extra
+  212  composer require twig/extra-bundle
+  213  composer require symfony/intl
+  214  sudo apt-get update
+  215  sudo apt-get install php7.2-intl
+  216  php bin/console cache:clear
+  217  cd Dev/app/africanFood/
+  218  history
+  219  php bin/console cache:clear
+  220  sudo docker ps -a
+  221  sudo docker start 2f56ab9237d1
+  222  sudo docker start cecb41bf29a4
+  223  php bin/console make:controller Cart
+  224  cd Dev/app/africanFood/
+  225  php bin/console make:controller Cart
+  226  php bin/console cache:clear
+  227  sudo docker ps -a
+  228  sudo docker start 2f56ab9237d1
+  229  sudo docker start cecb41bf29a4
+  230  sudo docker ps -a
+  231  sudo docker start 2f56ab9237d1
+  232  sudo docker start cecb41bf29a4
+  233  php bin/console cache:clear
+  234  cd Dev/app/africanFood/
+  235  php bin/console cache:clear
+  236  docker pas -a
+  237  cd ../../..
+  238  docker pas -a
+  239  docker ps -a
+  240  sudo docker ps -a
+  241  docker start 2f56ab9237d1
+  242  sudo docker start 2f56ab9237d1
+  243  sudo docker start cecb41bf29a4
+  244  cd Dev/app/africanFood/
+  245  gitbran
+  246  git branch
+  247  php bin/console make:entity Address
+  248  php bin/console make:migration
+  249  php bin/console doctrine:migrations:migrate
+  250  reset
+  251  php bin/console make:controller AcountAddress
+  252  php bin/console mak:form
+  253  sudo apt-update
+  254  sudo apt-get update
+  255  cd Dev/app/africanFood/
+  256  sudo docker ps -a
+  257  sudo docker start 2f56ab9237d1
+  258  sudo docker start cecb41bf29a4
+  259  sudo docker pas -a
+  260  sudo docker pa -a
+  261  sudo docker ps -a
+  262  sudo docker start 2f56ab9237d1
+  263  sudo docker start cecb41bf29a4
+  264  sudo apt-get update
+  265  sudo docker ps -a
+  266  sudo docker start 2f56ab9237d1
+  267  sudo docker start cecb41bf29a4
+  268  cd Dev/app/africanFood/
+  269  php bin/console cache:clear
+  270  reset
+  271  php bin/console make:entity carrier
+  272  php bin/console make:migration
+  273  php bin/console doctrine:migrations:migrate
+  274  reset
+  275  php bin/console make:admin crud
+  276  php bin/console make:admin:crud
+  277  reset
+  278  php bin/console make:entity order
+  279  php bin/console make:entity Order
+  280  reset
+  281  php bin/console make:entity Order
+  282  reset
+  283  php bin/console make:entity OrderDetails
+  284  php bin/console make:migration
+  285  php bin/console make:migrations:migrate
+  286  php bin/console doctrine:migrations:migrate
+  287  sudo apt-get update
+  288  cd Dev/app/africanFood/
+  289  git branch
+  290  sudo docker pas -a
+  291  sudo docker ps -a
+  292  sudo docker start 2f56ab9237d1
+  293  sudo docker start cecb41bf29a4
+  294  sudo apt-get uapdate
+  295  sudo apt-get update
+  296  sudo docker ps
+  297  sudo docker ps -a
+  298  sudo docker start 2f56ab9237d1
+  299  cd Dev
+  300  ll
+  301  cd app/
+  302  cd africanFood/
+  303  ll
+  304  reset
+  305  symfony console make:controller
+  306  php bin/console make:controller
+  307  php bin/consolecache:clear
+  308  php bin/console cache:clear
+  309  sudoapt-get update
+  310  sudo apt-get update
+  311  sudo apt-get install
+  312  cd Dev/app/
+  313  ll
+  314  docker ps -a
+  315  sudo docker ps -a
+  316  sudo docker start 2f56ab9237d1
+  317  ll
+  318  cd africanFood/
+  319  ll
+  320  php bin/console fos:user:change-password mnd mnd
+  321  php bin/console
+  322  sudo apt-get update
+  323  sudo apt-get install
+  324  sudo apt-get update
+  325  sudo apt-get install
+  326  sudo apt-get update
+  327  ll
+  328  cd Bureau/
+  329  ll
+  330  cd..
+  331  cd ..
+  332  cd dev
+  333  ll
+  334  cd Dev/
+  335  ll
+  336  cd app
+  337  ll
+  338  git -v
+  339  git --version
+  340  git clone https://github.com/mg488/nguith.com.sf-6.git
+  341  ll
+  342  cd ..
+  343  ll
+  344  git cd notes-env-mg/
+  345  cd notes-env-mg/
+  346  ll
+  347  git init
+  348  ll
+  349  git add .
+  350  git commit -m "pousser mes notes dans le repertoir distant"
+  351  git status
+  352  git remote add origin https://github.com/mg488/notes-env-mg.git
+  353  git remote -v
+  354  git push origin master
+  355  reset
+  356  git remote set-url origin  https://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@github.com/mg488/notes-env-mg.git
+  357  git branch
+  358  git branch -M main
+  359  git branch
+  360  git push -u origin main
+  361  sudo git push -u origin main
+  362  git push -u origin main
+  363  ll
+  364  cd ..
+  365  cd notes-env-mg/
+  366  git clone
+  367  git clone https://github.com/mg488/notes-env-mg.git
+  368  ll
+  369  git branch
+  370  git remote add origin https://github.com/mg488/notes-env-mg.git
+  371  git push -u origin main
+  372  git status
+  373  git add .
+  374  git commit -m "ajout des fichiers pour lancer l'env"
+  375  git push
+  376  vim --v
+  377  sudo apt install vim
+  378  git add .
+  379  git commit -m "description activer wsl"
+  380  git push
+  381  docker ps
+  382  sudo docker ps
+  383  docker ps
+  384  sudo docker ps
+  385  docker logs You can now connect to this MySQL Server with qIl4oxLktqg5
+  386  Please remember to change the above password as soon as possible!
+  387  MySQL user 'root' has no password but only allows local connections
+  388  enjoy!
+  389  docker logs c08b0969e662
+  390  sudo docker logs c08b0969e662
+  391  docker ps
+  392  sudo docker ps
+  393  docker volume create portainer_data
+  394  sudo docker volume create portainer_dataà
+  395  docker run -d -p 8000:8000 -p 9000:9000 --name portainer
+  396  docker run -d -p 8000:8000 -p 9443:9443 --name portainer     --restart=always     -v /var/run/docker.sock:/var/run/docker.sock     -v portainer_data:/data \
+  397  docker run -d -p 8000:8000 -p 9000:9000 --name portainer     --restart=always     -v /var/run/docker.sock:/var/run/docker.sock     -v portainer_data:/data \ portainer/portainer-ce:2.9.3
+  398  docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.3
+  399  sudo docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.3
+  400  sudo docker ps
+  401  cd ../../..
+  402  cd -
+  403  cd ~
+  404  docker exec c08b0969e662 mysql -urooy -e "create database dbnguith"
+  405  sudo docker exec c08b0969e662 mysql -urooy -e "create database dbnguith"
+  406  sudo docker exec c08b0969e662 mysql -uroot -e "create database dbnguith"
+  407  ll
+  408  cd Dev/app/nguith.com.sf-6/
+  409  git branch
+  410  git checkout -b develop
+  411  git branch
+  412  php -v
+  413  ll
+  414  cd ..
+  415  mv nguith.com.sf-6 nguith.com.sf-5
+  416  ll
+  417  cd nguith.com.sf-5/
+  418  symfony new my_project_directory --version=5.4 --webapp
+  419  ll
+  420  cd ..
+  421  rm -rf nguith.com.sf-5/
+  422  symfony new nguith.com.sf-5 --version=5.4 --webapp
+  423  brew install symfony-cli/tap/symfony-cli
+  424  composer create-project symfony/skeleton:"^5.4" nguith.com.sf-5
+  425  ll
+  426  cd nguith.com.sf-5/
+  427  ll
+  428  exit
+  429  cd ~
+  430  docker ps
+  431  sudo docker ps
+  432  docker run
+  433  docker run --help
+  434  reset
+  435  apache verison
+  436  apache -verison
+  437  apache --verison
+  438  apache --v
+  439  apache -v
+  440  php -v
+  441  docker run -p
+  442  docker run
+  443  docker run -p "80:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1604
+  444  sudo docker run -p "80:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1604
+  445  ll
+  446  cd Dev/
+  447  ll
+  448  cd notes-env-mg/
+  449  git status
+  450  git add .
+  451  git commit -m "maj des notes"
+  452  git push
+  453  git status
+  454  git add .
+  455  git status
+  456  git branch
+  457  cd Dev/app/africanFood/
+  458  docker-compose up --build
+  459  sudo docker-compose up --build
+  460  docker history
+  461  docker build -t sha256:456fa7c58e09722efbb8ce897604c65b630dcb5c0eabe23c2e3eb691a989e6a2
+  462  sudo docker volume ls
+  463  docker volume inspaect sha256:456fa7c58e09722efbb8ce897604c65b630dcb5c0eabe23c2e3eb691a989e6a2
+  464  docker volume inspect sha256:456fa7c58e09722efbb8ce897604c65b630dcb5c0eabe23c2e3eb691a989e6a2
+  465  sudo docker volume inspect sha256:456fa7c58e09722efbb8ce897604c65b630dcb5c0eabe23c2e3eb691a989e6a2
+  466  sudo docker volume inspect 2aceabb7a01faa36704a5717f56d019b285b4389067fc4e5cdda6cd0e9797d7f
+  467  sudo docker run-it -v 2aceabb7a01faa36704a5717f56d019b285b4389067fc4e5cdda6cd0e9797d7f/shared-volume--name africanfood ubuntu
+  468  sudo docker run-it -v 2aceabb7a01faa36704a5717f56d019b285b4389067fc4e5cdda6cd0e9797d7f/shared-volume --name africanfood ubuntu
+  469  sudo docker run-it -v 2aceabb7a01faa36704a5717f56d019b285b4389067fc4e5cdda6cd0e9797d7f/shared-volume --name my-container-01 ubuntu
+  470  sudo docker run -it -v 2aceabb7a01faa36704a5717f56d019b285b4389067fc4e5cdda6cd0e9797d7f/shared-volume --name my-container-01 ubuntu
+  471  sudo docker volume ls
+  472  sudo docker run -it -v eacf135b1b0565b4bd1421446ecfcde82f95293a6fb1abe8eb0cd36d4a479259/shared-volume --name africainFood ubuntu
+  473  docker run docker-gs-ping
+  474  sudo docker run docker-gs-ping
+  475  docker images ls
+  476  sudo docker images ls
+  477  docker ps
+  478  sudo docker ps
+  479  sudo docker image ls
+  480  docker run -dit docker.io/2d9935d1db98
+  481  sudo docker run -dit docker.io/2d9935d1db98
+  482  sudo docker run -dit docker.io/580c0e4e98b0
+  483  sudo docker run -dit docker.io/456fa7c58e09
+  484  php bin/console do:mi:status
+  485  composer.phar
+  486  history
+  487  docker ps -a
+  488  sudo docker ps -a
+  489  php bin/console cache:clear
+  490  php bin/console do:mi:mi
+  491  hp bin/console doctrine:database:create
+  492  php bin/console doctrine:database:create
+  493  sudo docker run -p "80:80" -p "443:443" -p "3306:3306" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+  494  sudo docker run -p "81:81" -p "443:443" -p "3306:3306" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+  495  sudo docker ps -a
+  496  sudo docker start 534c66bd40a4
+  497* sudo docker ps -
+  498  sudo docker start 534c66bd40a4
+  499  sudo docker ps -a
+  500  sudo docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.3
+  501  sudo docker run -p "80:80" -p "443:443" -p "3306:3306" -v ${PWD}/app:/app mattrayner/lamp:latest-1804
+  502  php bin/console doctrine:database:create
+  503  sudo apt install php-mysqli
+  504  php bin/console doctrine:database:create
+  505  php bin/console make:migration
+  506  git branch
+  507  git add .
+  508  git commit -m "reprise projet site e-commerce africanfood"
+  509*
+  510  curl -u mg488:token mg https://api.github.com/mg488
+  511  history
+  512  git remote set-url origin  https://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@github.com/mg488/african.git
+  513  git push
+  514  git remote set-url origin  https://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@github.com/mg488/africanFood.git
+  515  git push
+  516  history

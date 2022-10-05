@@ -1,0 +1,39 @@
+
+Git token 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
+Etape 1 :
+mysql –u admin –p BBynWDpNi4kh -h<host> -P<port>
+ phpmyadmin
+ user : admin
+ mdp : BBynWDpNi4kh
+ Etape 2 :
+ url :http://localhost/phpmyadmin/
+url portainer : http://localhost:9000/#!/2/docker/containers
+definir / url par défaut url projet : http://localhost/
+ -------------------------------------------------------
+Etape 3 :
+ url pour lance mon projet : http://localhost/
+ le projet est à créer dans app
+ modifier dans /etc/apache2/sites-enabled  le 00-default.conf en remplaçant :
+ DocumentRoot /var/www/html  par DocumentRoot /var/www/html /public
+ <Directory /var/www/html> par <Directory /var/www/html /public> afin de faire marcher le projet symfony
+Etape 3' : aller dans le conteneur dans volume dans host modifier
+
+/home/ndiaye/Dev/app/africanFood/public en /home/ndiaye/Dev/app
+
+NB : liens
+http://127.0.0.1/africanFood/public/
+http://127.0.0.1/africanFood/public/index.php/inscription
+
+NB : faut rajouter le index.php pour pouvoir naviguer
+
+Etape 4 :
+ --------------------------------------------------------------
+Etape 5 :
+ aller dans le container et créer le projet symfony
+
+
+Etape 6 :
+installation d'apache pour faire marche les routes
+
+composer require symfony/apache-pack
+NB : le projet se passe dans le dossier app

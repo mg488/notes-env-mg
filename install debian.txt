@@ -1,0 +1,35 @@
+Etape 1 :
+installation de l'infrastructure
+*mis Ã jours de windows
+* installation du noyaux linux debian
+** activer l'option Sous-systÃ¨me Windows pourlinux (tapper dansle menu demarrer de windows "FonctionnalitÃ© de windows
+et cocher la case "Sous-systÃ¨me Windows pourlinux
+Etape 2 :Debian telecharger debian depuis Microsoft Store
+Etape 3 : Makedans le debian taper les commandes
+*sudo apt-get update*sudo apt-get install -y make
+Etape 3.1 : installe vim et git
+*sudo apt-get update
+*sudo apt-get install -y vim
+*sudo apt-get install -y git
+Etape 3.2 : config un user
+*git config --global user.name "Nom prenom"
+*git config --global user.email "email"
+*git config --global core.editor vim
+Etape 4 : activer WSL 1 ou 2
+commande pour activer WSL2
+*ouvir powershell en tant que admin
+* command $ : dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+* wsl --set-default-version 2
+*pour lister les distributions WSLet verifier la version de debiancommand $ :
+wsl --list --verbose
+Etape 5 :chemin pour acceder Ã mon debian:
+\\wsl$\Debian
+Etape 6 :Mettre par defaut debian (dossier ~) dans windows terminal depuis debian taper la command
+$ sudo nano .bashrc
+Ã lafin de la ligne
+rajouter le chemin pour acceder au  ~ dedebian
+cd /home/mndiaye
+Etape 7 :
+Etape 8 :
+Etape 9 :
+Etape 10
